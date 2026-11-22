@@ -1,0 +1,126 @@
+/* Card Container */
+.main-content {
+  background-color: #f5f5f5;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 16px;
+  padding: 34px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.45);
+}
+
+/* Title & Rules */
+.title {
+  font-size: 2.3rem;
+  margin: 0;
+  color: #2b283a;
+  letter-spacing: -0.03em;
+}
+
+.instructions {
+  font-weight: 400;
+  margin: 8px 0 24px 0;
+  text-align: center;
+  color: #4a4e74;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+/* 5x2 Grid for 10 Dice */
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+/* Individual Die Cube */
+.die-btn {
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #2b283a;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.die-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.18);
+}
+
+.die-btn:active {
+  transform: translateY(1px);
+}
+
+/* Modern Roll Button */
+.roll-dice {
+  height: 48px;
+  padding: 0 36px;
+  border: none;
+  border-radius: 8px;
+  background-color: #5035ff;
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(80, 53, 255, 0.35);
+  transition: all 0.2s ease;
+}
+
+.roll-dice:hover {
+  background-color: #4329e0;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(80, 53, 255, 0.45);
+}
+
+.roll-dice:active {
+  transform: translateY(0);
+}
+
+/* Timer Display */
+.timer-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #ffffff;
+  padding: 8px 18px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.timer-label {
+  color: #64748b;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.timer-value {
+  color: #0f172a;
+  font-weight: 700;
+  font-family: monospace;
+  font-size: 1.15rem;
+}
+
+/* Best Record Footer */
+.best-score-container {
+  margin-top: 22px;
+  padding-top: 14px;
+  border-top: 1px solid #e2e8f0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #334155;
+}
