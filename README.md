@@ -6,7 +6,7 @@ An interactive, fast-paced dice rolling game built with **React** and **Vite**. 
 
 ## 🚀 Live Demo
 
-👉 **[Play Tenzies Online](https://YOUR_VERCEL_URL_HERE.vercel.app)** *(Deploy करने के बाद अपना link यहाँ डालें)*
+👉 **https://tenzies-react-game-wheat.vercel.app/** 
 
 ---
 
